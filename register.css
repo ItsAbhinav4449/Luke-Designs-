@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Luke Designs</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="auth-container">
+        <h2>Register for Luke Designs</h2>
+        <form id="registerForm">
+            <input type="text" id="newUsername" placeholder="Enter Username" required>
+            <input type="password" id="newPassword" placeholder="Enter Password" required>
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+.auth-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #222;
+    color: #0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0f0;
+}? <a href="login.html">Login here</a></p>
+        <p id="register-message"></p>
+    </div>
+
+    <!-- Pop-up Notification -->
+    <div id="popup" class="popup">
+        <p>✅ Registration Successful! Redirecting...</p>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+</html>

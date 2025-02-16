@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Luke Designs</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="auth-container">
+        <h2>Register for Luke Designs</h2>
+        <form id="registerForm">
+            <input type="text" id="newUsername" placeholder="Enter Username" required>
+            <input type="password" id="newPassword" placeholder="Enter Password" required>
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+        <p id="register-message"></p>
+    </div>
+
+    <!-- Pop-up Notification -->
+    <div id="popup" class="popup">
+        <p>✅ Registration Successful! Redirecting...</p>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+</html>
